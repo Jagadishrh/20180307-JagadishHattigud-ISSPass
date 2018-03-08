@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5151393EF4190650D91FB820 /* Pods_ISS_Passtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B72690CE4A993D335AE71B /* Pods_ISS_Passtime.framework */; };
+		6C94F882057EB6F9C809BC9A /* Pods_ISS_PasstimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04800BEF4351E68D02CDA0 /* Pods_ISS_PasstimeTests.framework */; };
+		8D2B72F4204E837400C128B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B72F3204E837400C128B9 /* AppDelegate.swift */; };
+		8D2B72F6204E837400C128B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B72F5204E837400C128B9 /* ViewController.swift */; };
+		8D2B72F9204E837400C128B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2B72F7204E837400C128B9 /* Main.storyboard */; };
+		8D2B72FB204E837400C128B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2B72FA204E837400C128B9 /* Assets.xcassets */; };
+		8D2B72FE204E837400C128B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2B72FC204E837400C128B9 /* LaunchScreen.storyboard */; };
+		8D2B7309204E837400C128B9 /* ISS_PasstimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7308204E837400C128B9 /* ISS_PasstimeTests.swift */; };
+		8D2B7318204E8F7E00C128B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7317204E8F7E00C128B9 /* Constants.swift */; };
+		8D2B731A204E903300C128B9 /* ISSPasstimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7319204E903300C128B9 /* ISSPasstimeViewController.swift */; };
+		8D2B731B204E903300C128B9 /* ISSPasstimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7319204E903300C128B9 /* ISSPasstimeViewController.swift */; };
+		8D2B731D204EC37300C128B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D2B731C204EC37200C128B9 /* Podfile */; };
+		8D2B731E204EC37300C128B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D2B731C204EC37200C128B9 /* Podfile */; };
+		8D2B7321204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7320204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift */; };
+		8D2B7322204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7320204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift */; };
+		8D2B7324204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7323204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift */; };
+		8D2B7325204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7323204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift */; };
+		8D2B7327204FC98D00C128B9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7326204FC98D00C128B9 /* Utils.swift */; };
+		8D2B7328204FC98D00C128B9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B7326204FC98D00C128B9 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D2B7305204E837400C128B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2B72E8204E837400C128B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D2B72EF204E837400C128B9;
+			remoteInfo = ISS_Passtime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A404D490533EF28F52FFF11 /* Pods-ISS_Passtime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS_Passtime.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISS_Passtime/Pods-ISS_Passtime.release.xcconfig"; sourceTree = "<group>"; };
+		3C469FBAEC9F91763220A698 /* Pods-ISS_PasstimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS_PasstimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISS_PasstimeTests/Pods-ISS_PasstimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E04800BEF4351E68D02CDA0 /* Pods_ISS_PasstimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISS_PasstimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56ADA5CCED679DEEA42C54C3 /* Pods-ISS_Passtime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS_Passtime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISS_Passtime/Pods-ISS_Passtime.debug.xcconfig"; sourceTree = "<group>"; };
+		63B72690CE4A993D335AE71B /* Pods_ISS_Passtime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISS_Passtime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2B72F0204E837400C128B9 /* ISS_Passtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISS_Passtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2B72F3204E837400C128B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D2B72F5204E837400C128B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D2B72F8204E837400C128B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D2B72FA204E837400C128B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D2B72FD204E837400C128B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D2B72FF204E837400C128B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2B7304204E837400C128B9 /* ISS_PasstimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISS_PasstimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2B7308204E837400C128B9 /* ISS_PasstimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISS_PasstimeTests.swift; sourceTree = "<group>"; };
+		8D2B730A204E837400C128B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2B7317204E8F7E00C128B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8D2B7319204E903300C128B9 /* ISSPasstimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPasstimeViewController.swift; sourceTree = "<group>"; };
+		8D2B731C204EC37200C128B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		8D2B7320204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPasstimeTableViewCell.swift; sourceTree = "<group>"; };
+		8D2B7323204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ISSPasstimeViewController+Network.swift"; sourceTree = "<group>"; };
+		8D2B7326204FC98D00C128B9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AD4D9888DF7B6B646E34C61B /* Pods-ISS_PasstimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS_PasstimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISS_PasstimeTests/Pods-ISS_PasstimeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D2B72ED204E837400C128B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151393EF4190650D91FB820 /* Pods_ISS_Passtime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2B7301204E837400C128B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C94F882057EB6F9C809BC9A /* Pods_ISS_PasstimeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D2B72E7204E837400C128B9 = {
+			isa = PBXGroup;
+			children = (
+				8D2B7314204E8DF200C128B9 /* Frameworks */,
+				8D2B72F2204E837400C128B9 /* ISS_Passtime */,
+				8D2B7307204E837400C128B9 /* ISS_PasstimeTests */,
+				8D2B72F1204E837400C128B9 /* Products */,
+				A59EFD7D7E8ECEF19510BB1F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8D2B72F1204E837400C128B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2B72F0204E837400C128B9 /* ISS_Passtime.app */,
+				8D2B7304204E837400C128B9 /* ISS_PasstimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D2B72F2204E837400C128B9 /* ISS_Passtime */ = {
+			isa = PBXGroup;
+			children = (
+				8D2B731C204EC37200C128B9 /* Podfile */,
+				8D2B7316204E8F2300C128B9 /* Common */,
+				8D2B7315204E8E0000C128B9 /* Controllers */,
+				8D2B7313204E8D3100C128B9 /* Network Services */,
+				8D2B72F3204E837400C128B9 /* AppDelegate.swift */,
+				8D2B72F5204E837400C128B9 /* ViewController.swift */,
+				8D2B72F7204E837400C128B9 /* Main.storyboard */,
+				8D2B72FA204E837400C128B9 /* Assets.xcassets */,
+				8D2B72FC204E837400C128B9 /* LaunchScreen.storyboard */,
+				8D2B72FF204E837400C128B9 /* Info.plist */,
+			);
+			path = ISS_Passtime;
+			sourceTree = "<group>";
+		};
+		8D2B7307204E837400C128B9 /* ISS_PasstimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D2B7308204E837400C128B9 /* ISS_PasstimeTests.swift */,
+				8D2B730A204E837400C128B9 /* Info.plist */,
+			);
+			path = ISS_PasstimeTests;
+			sourceTree = "<group>";
+		};
+		8D2B7313204E8D3100C128B9 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		8D2B7314204E8DF200C128B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B72690CE4A993D335AE71B /* Pods_ISS_Passtime.framework */,
+				4E04800BEF4351E68D02CDA0 /* Pods_ISS_PasstimeTests.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D2B7315204E8E0000C128B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D2B7319204E903300C128B9 /* ISSPasstimeViewController.swift */,
+				8D2B7320204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift */,
+				8D2B7323204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D2B7316204E8F2300C128B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8D2B7317204E8F7E00C128B9 /* Constants.swift */,
+				8D2B7326204FC98D00C128B9 /* Utils.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A59EFD7D7E8ECEF19510BB1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56ADA5CCED679DEEA42C54C3 /* Pods-ISS_Passtime.debug.xcconfig */,
+				2A404D490533EF28F52FFF11 /* Pods-ISS_Passtime.release.xcconfig */,
+				3C469FBAEC9F91763220A698 /* Pods-ISS_PasstimeTests.debug.xcconfig */,
+				AD4D9888DF7B6B646E34C61B /* Pods-ISS_PasstimeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D2B72EF204E837400C128B9 /* ISS_Passtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2B730D204E837400C128B9 /* Build configuration list for PBXNativeTarget "ISS_Passtime" */;
+			buildPhases = (
+				EC339C6C237F9E8D8499489E /* [CP] Check Pods Manifest.lock */,
+				8D2B72EC204E837400C128B9 /* Sources */,
+				8D2B72ED204E837400C128B9 /* Frameworks */,
+				8D2B72EE204E837400C128B9 /* Resources */,
+				03A808B6745CEF1199A24ABD /* [CP] Embed Pods Frameworks */,
+				CFB608EFCA9127BA1DE2C681 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISS_Passtime;
+			productName = ISS_Passtime;
+			productReference = 8D2B72F0204E837400C128B9 /* ISS_Passtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D2B7303204E837400C128B9 /* ISS_PasstimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2B7310204E837400C128B9 /* Build configuration list for PBXNativeTarget "ISS_PasstimeTests" */;
+			buildPhases = (
+				458579AE86293DEADC63AD54 /* [CP] Check Pods Manifest.lock */,
+				8D2B7300204E837400C128B9 /* Sources */,
+				8D2B7301204E837400C128B9 /* Frameworks */,
+				8D2B7302204E837400C128B9 /* Resources */,
+				25A76707C3B9E6924BFAE055 /* [CP] Embed Pods Frameworks */,
+				2B089977036F40A6D824331E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D2B7306204E837400C128B9 /* PBXTargetDependency */,
+			);
+			name = ISS_PasstimeTests;
+			productName = ISS_PasstimeTests;
+			productReference = 8D2B7304204E837400C128B9 /* ISS_PasstimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D2B72E8204E837400C128B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jagadish R Hattigud";
+				TargetAttributes = {
+					8D2B72EF204E837400C128B9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8D2B7303204E837400C128B9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D2B72EF204E837400C128B9;
+					};
+				};
+			};
+			buildConfigurationList = 8D2B72EB204E837400C128B9 /* Build configuration list for PBXProject "ISS_Passtime" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D2B72E7204E837400C128B9;
+			productRefGroup = 8D2B72F1204E837400C128B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D2B72EF204E837400C128B9 /* ISS_Passtime */,
+				8D2B7303204E837400C128B9 /* ISS_PasstimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D2B72EE204E837400C128B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2B72FE204E837400C128B9 /* LaunchScreen.storyboard in Resources */,
+				8D2B72FB204E837400C128B9 /* Assets.xcassets in Resources */,
+				8D2B731D204EC37300C128B9 /* Podfile in Resources */,
+				8D2B72F9204E837400C128B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2B7302204E837400C128B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2B731E204EC37300C128B9 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A808B6745CEF1199A24ABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ISS_Passtime/Pods-ISS_Passtime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISS_Passtime/Pods-ISS_Passtime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A76707C3B9E6924BFAE055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISS_PasstimeTests/Pods-ISS_PasstimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B089977036F40A6D824331E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISS_PasstimeTests/Pods-ISS_PasstimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		458579AE86293DEADC63AD54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISS_PasstimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB608EFCA9127BA1DE2C681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISS_Passtime/Pods-ISS_Passtime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC339C6C237F9E8D8499489E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISS_Passtime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D2B72EC204E837400C128B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2B72F6204E837400C128B9 /* ViewController.swift in Sources */,
+				8D2B72F4204E837400C128B9 /* AppDelegate.swift in Sources */,
+				8D2B731A204E903300C128B9 /* ISSPasstimeViewController.swift in Sources */,
+				8D2B7327204FC98D00C128B9 /* Utils.swift in Sources */,
+				8D2B7324204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift in Sources */,
+				8D2B7318204E8F7E00C128B9 /* Constants.swift in Sources */,
+				8D2B7321204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2B7300204E837400C128B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2B7328204FC98D00C128B9 /* Utils.swift in Sources */,
+				8D2B731B204E903300C128B9 /* ISSPasstimeViewController.swift in Sources */,
+				8D2B7309204E837400C128B9 /* ISS_PasstimeTests.swift in Sources */,
+				8D2B7322204EFE4000C128B9 /* ISSPasstimeTableViewCell.swift in Sources */,
+				8D2B7325204FC6B100C128B9 /* ISSPasstimeViewController+Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D2B7306204E837400C128B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D2B72EF204E837400C128B9 /* ISS_Passtime */;
+			targetProxy = 8D2B7305204E837400C128B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D2B72F7204E837400C128B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D2B72F8204E837400C128B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D2B72FC204E837400C128B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D2B72FD204E837400C128B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D2B730B204E837400C128B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D2B730C204E837400C128B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D2B730E204E837400C128B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56ADA5CCED679DEEA42C54C3 /* Pods-ISS_Passtime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISS_Passtime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jagadish.ISS-Passtime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D2B730F204E837400C128B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A404D490533EF28F52FFF11 /* Pods-ISS_Passtime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISS_Passtime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jagadish.ISS-Passtime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D2B7311204E837400C128B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C469FBAEC9F91763220A698 /* Pods-ISS_PasstimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISS_PasstimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jagadish.ISS-PasstimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS_Passtime.app/ISS_Passtime";
+			};
+			name = Debug;
+		};
+		8D2B7312204E837400C128B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4D9888DF7B6B646E34C61B /* Pods-ISS_PasstimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISS_PasstimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jagadish.ISS-PasstimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS_Passtime.app/ISS_Passtime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D2B72EB204E837400C128B9 /* Build configuration list for PBXProject "ISS_Passtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2B730B204E837400C128B9 /* Debug */,
+				8D2B730C204E837400C128B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2B730D204E837400C128B9 /* Build configuration list for PBXNativeTarget "ISS_Passtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2B730E204E837400C128B9 /* Debug */,
+				8D2B730F204E837400C128B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2B7310204E837400C128B9 /* Build configuration list for PBXNativeTarget "ISS_PasstimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2B7311204E837400C128B9 /* Debug */,
+				8D2B7312204E837400C128B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D2B72E8204E837400C128B9 /* Project object */;
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ISS_Passtime/Controllers/ISSPasstimeViewController.swift"
+            timestampString = "542101177.897329"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ISS_Passtime/Controllers/ISSPasstimeViewController.swift"
+            timestampString = "542101177.898663"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ISSPasstimeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ISS_Passtime.ISSPasstimeViewController.passTimes.getter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "ISS_Passtime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jagadish/Desktop/ISS/ISS_Passtime/ISS_Passtime/Controllers/ISSPasstimeViewController.swift"
+                  timestampString = "542064709.423664"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ISS_Passtime.ISSPasstimeViewController.passTimes.setter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "ISS_Passtime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jagadish/Desktop/ISS/ISS_Passtime/ISS_Passtime/Controllers/ISSPasstimeViewController.swift"
+                  timestampString = "542064709.427384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ISS_Passtime.ISSPasstimeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ISS_Passtime.ISSPasstimeViewController"
+                  moduleName = "ISS_Passtime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jagadish/Desktop/ISS/ISS_Passtime/ISS_Passtime/Controllers/ISSPasstimeViewController.swift"
+                  timestampString = "542064709.431131"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "337">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ISS_Passtime.ISSPasstimeViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ISS_Passtime.ISSPasstimeViewController&gt;"
+                  moduleName = "ISS_Passtime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jagadish/Desktop/ISS/ISS_Passtime/ISS_Passtime/Controllers/ISSPasstimeViewController.swift"
+                  timestampString = "542064709.434828"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
